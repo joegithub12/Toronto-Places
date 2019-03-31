@@ -1,0 +1,42 @@
+{
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "enableRouting": true,
+  "bufferRange": {
+    "minimum": 1,
+    "_default": 2,
+    "maximum": 5
+  },
+  "distanceUnits": "kilometers",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": 6,
+  "defaultZoomLevel": 13,
+  "tabs": [],
+  "csvAllFields": false,
+  "summaryDisplayEnabled": true,
+  "incidentLabel": "Incident",
+  "locateIncidentLabel": "Locate Incident",
+  "bufferLabel": "Buffer Distance",
+  "disableVisibilityManagement": true,
+  "saveEnabled": false,
+  "savePoints": false,
+  "drawGeodesic": true,
+  "saveLines": false,
+  "savePolys": false,
+  "snapshotEnabled": true,
+  "reportEnabled": true,
+  "reportSettings": {
+    "printTaskURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "footnote": "",
+    "logo": "${appPath}/widgets/SituationAwareness/images/defaultLogo.png",
+    "textColor": "#cc0e24"
+  }
+}
